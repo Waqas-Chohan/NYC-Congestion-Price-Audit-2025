@@ -13,7 +13,16 @@ from plotly.subplots import make_subplots
 from pathlib import Path
 from datetime import datetime
 import sys
+import subprocess
 
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+try:
+    import dask.dataframe as dd
+except ImportError:
+    install("dask[dataframe]")
+    import dask.dataframe as dd
 # Add parent directory to path
 sys.path.append(str(Path(__file__).parent.parent))
 
