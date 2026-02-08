@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data files (large datasets)
+data/raw/*.parquet
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.parquet
+data/processed/*.csv
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/audit_logs/.gitkeep
+
+# Logs
+*.log
+logs/
+outputs/*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.envrc
+
+# Reports (generated)
+outputs/audit_report.pdf
+outputs/executive_summary.txt
+
+# Visualizations (generated)
+outputs/visuals/*.png
+outputs/visuals/*.html
+outputs/visuals/*.jpg
+
+# Cache
+.cache/
+*.cache
+.dask/

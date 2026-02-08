@@ -1,0 +1,7 @@
+December 2025 imputation metadata
+Formula: Dec_2025 = 0.3 * Dec_2023 + 0.7 * Dec_2024
+Source files:
+  - green_tripdata_2023-12.parquet
+  - green_tripdata_2024-12.parquet
+
+Imputation will be performed in the main pipeline.

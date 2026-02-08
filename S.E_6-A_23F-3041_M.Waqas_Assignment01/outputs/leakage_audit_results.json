@@ -1,0 +1,21 @@
+{
+  "total_congestion_trips": 40875710,
+  "trips_with_surcharge": 30228034,
+  "trips_missing_surcharge": 10647676,
+  "compliance_rate": 73.95109222567633,
+  "leakage_rate": 26.048907774323666,
+  "top3_missing_locations": [
+    {
+      "location_id": 79,
+      "missing_count": 385468
+    },
+    {
+      "location_id": 249,
+      "missing_count": 254839
+    },
+    {
+      "location_id": 161,
+      "missing_count": 254603
+    }
+  ]
+}

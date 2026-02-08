@@ -1,0 +1,11 @@
+{
+  "correlation": 0.1565024829180481,
+  "elasticity_interpretation": "INVERSE ELASTIC - Demand INCREASES with rain (people avoid walking)",
+  "avg_trips_dry_days": 130647.07623318386,
+  "avg_trips_rainy_days": 137687.1081081081,
+  "pct_change_rainy": 5.388587389708536,
+  "num_dry_days": 223,
+  "num_rainy_days": 111,
+  "wettest_month": "May",
+  "wettest_month_precipitation_mm": 178.3
+}
