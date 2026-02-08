@@ -2,7 +2,10 @@
 # Python dependencies for the project
 
 # Big Data Processing
-dask[complete]>=2024.1.0
+# Big Data Processing
+dask>=2024.1.0
+distributed>=2024.1.0
+dask[dataframe]>=2024.1.0
 pandas>=2.0.0
 numpy>=1.24.0
 pyarrow>=14.0.0
